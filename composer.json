@@ -1,1 +1,23 @@
-
+{
+  "name": "api-postcode/api-postcode-laravel",
+  "description": "Laravel package for api-postcode,
+  "keywords": ["laravel", "postcode", "api-postcode", "address", "api"],
+  "homepage": "https://api-postcode.nl",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Api Postcode",
+      "email": "info@api-postcode.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "^5.1",
+    "api-postcode/php-client": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ApiPostcode\\": ""
+    }
+  }
+}
