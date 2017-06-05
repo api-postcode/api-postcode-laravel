@@ -1,6 +1,15 @@
 {
   "name": "api-postcode/api-postcode-laravel",
-  "description": "Laravel package for api-postcode,
+  "description": "Laravel package for api-postcode",
+  "keywords": ["laravel", "postcode", "api-postcode", "address", "api"],
+  "homepage": "https://api-postcode.nl",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Api Postcode",
+      "email": "info@api-postcode.nl"
+    }
+  ],
   "require": {
     "php": ">=5.5.9",
     "illuminate/support": "^5.1",
