@@ -50,7 +50,7 @@ Usage
 -----
 
 ``` php
-$address = app('api.postcode')->getAddress('1012JS', 1);
+$address = app('api.postcode')->fetchAddress('1012JS', 1);
 	
 $address->getStreet();      // Dam
 $address->getCity();        // Amsterdam
