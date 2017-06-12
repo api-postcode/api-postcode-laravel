@@ -37,7 +37,7 @@ ApiPostcode\ApiPostcodeServiceProvider::class,
 ### Step 3: Configure Api Postcode credentials
 
 ```
-php artisan vendor:publish
+php artisan vendor:publish --provider="ApiPostcode\ApiPostcodeServiceProvider"
 ```
 
 Add this in you **.env** file
