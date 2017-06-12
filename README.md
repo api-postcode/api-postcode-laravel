@@ -68,3 +68,17 @@ $address->getZipCode();     // 1012JS
 $address->getLongitude();   // 4.4584
 $address->getLatitude();    // 52.2296
 ````
+
+Or use the Facade:
+
+``` php
+$address = Postcode::fetchAddress('1012JS', '1')
+````
+
+Staight in the routes:
+
+``` php
+$router->get('postcode/{zipCode}/{number}', function ($zipCode, $number) {
+    return Postcode::fetchAddress($zipCode, $number);
+});
+````
