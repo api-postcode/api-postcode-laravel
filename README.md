@@ -39,7 +39,7 @@ Optional - Register the Facade in: **config/app.php**
 ``` php
     'aliases' => [
     	//...
-    'Postcode' => ApiPostcode\Facade\Postcode::class,
+    	'Postcode' => ApiPostcode\Facade\Postcode::class,
     ];
 ````
 
