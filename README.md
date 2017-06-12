@@ -34,6 +34,16 @@ Register the Service in: **config/app.php**
 ApiPostcode\ApiPostcodeServiceProvider::class,
 ````
 
+Optional - Register the Facade in: **config/app.php**
+
+``` php
+    'aliases' => [
+    //
+    //
+    'Postcode' => ApiPostcode\Facade\Postcode::class,
+    ];
+````
+
 ### Step 3: Configure Api Postcode credentials
 
 ```
