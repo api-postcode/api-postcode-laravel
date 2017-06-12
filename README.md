@@ -75,7 +75,7 @@ Or use the Facade:
 $address = Postcode::fetchAddress('1012JS', '1')
 ````
 
-Staight in the routes:
+Or straight in routes:
 
 ``` php
 $router->get('postcode/{zipCode}/{number}', function ($zipCode, $number) {
