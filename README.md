@@ -14,11 +14,11 @@ Installation
 ------------
 Installation is a quick 3 step process:
 
-1. Download api-postcode-laravelusing composer
+1. Download api-postcode-laravel using composer
 2. Enable the package in app.php
 3. Configure your Api Postcode credentials
 
-### Step 1: Download laravel-bitly using composer
+### Step 1: Download api-postcode-laravel using composer
 
 Add api-postcode/api-postcode-laravel by running the command:
 
