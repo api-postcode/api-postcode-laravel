@@ -3,7 +3,7 @@ Laravel Api Postcode Package
 
 A laravel package for fetching Address details
 
-For more information see [api-postcode](https://api-postcode.nl/)
+For more information see: [https://api-postcode](https://api-postcode.nl/)
 
 ## Requirements ##
 
