@@ -10,9 +10,19 @@
       "email": "info@api-postcode.nl"
     }
   ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ApiPostcode\\ApiPostcodeServiceProvider"
+      ],
+      "aliases": {
+        "Postcode": "ApiPostcode\\Facade\\Postcode"
+      }
+    }
+  },  
   "require": {
     "php": ">=5.5.9",
-    "illuminate/support": "^5.1|^6|^7|^8",
+    "illuminate/support": "^5.8 || ^6.0 || ^7.0 || ^8.0",
     "api-postcode/php-client": "^1.0"
   },
   "autoload": {
